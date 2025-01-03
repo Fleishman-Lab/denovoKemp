@@ -1,0 +1,114 @@
+<ROSETTASCRIPTS>  
+    <SCOREFXNS>
+        <ScoreFunction name="ref15" weights="ref2015">
+            <Reweight scoretype="res_type_constraint" weight="0.5"/>
+            <Reweight scoretype="dihedral_constraint" weight="10"/>
+            <Reweight scoretype="coordinate_constraint" weight="10"/>
+            <Reweight scoretype="chainbreak" weight="100"/>
+        </ScoreFunction>
+        <ScoreFunction name="ref2015_chainbreak" weights="ref2015">
+            <Reweight scoretype="chainbreak" weight="1"/>
+        </ScoreFunction>
+        <ScoreFunction name="ref_2015" weights="ref2015">
+            <Reweight scoretype="res_type_constraint" weight="0.5"/>
+            <Reweight scoretype="coordinate_constraint" weight="1"/>
+            <Reweight scoretype="chainbreak" weight="100"/>
+        </ScoreFunction>
+        <ScoreFunction name="REF_coordcst" weights="ref2015">
+            <Reweight scoretype="res_type_constraint" weight="0.2"/> 
+            <Reweight scoretype="coordinate_constraint" weight="1"/>
+        </ScoreFunction>
+        <ScoreFunction name="soft_rep_coordcst" weights="soft_rep">
+            <Reweight scoretype="res_type_constraint" weight="0.2"/> 
+            <Reweight scoretype="coordinate_constraint" weight="1"/>
+        </ScoreFunction>
+    </SCOREFXNS>
+
+    <RESIDUE_SELECTORS>
+        <Index name="before_blade" resnums="%%before%%"/>
+        <Index name="after_blade" resnums="%%after%%"/>
+    </RESIDUE_SELECTORS>
+
+    <TASKOPERATIONS>
+        <InitializeFromCommandline name="init"/>
+        <SeqprofConsensus name="seqprofcons" min_aa_probability="1" probability_larger_than_current="0" ignore_pose_profile_length_mismatch="1" keep_native="1" debug="1"/>
+        SampleRotamersFromPDB name="template_chelating_res" add_rotamer="1" aligned_positions="%%template_catres%%" debug="0"/>//restore catalytic Glu
+        RestrictIdentitiesAtAlignedPositions name="restrict_chelating_E_design" source_pdb="%%template_pdb%%"  design_only_target_residues="1" resnums="%%template_catres%%"/> keep_aas="ADEFGHIKLMNPQRSTVWY"/>
+        RestrictIdentitiesAtAlignedPositions name="no_repack_cat_res" source_pdb="%%template_pdb%%" design_only_target_residues="0" resnums="%%template_catres%%" prevent_repacking="1"/>
+        <RestrictAbsentCanonicalAAS name="no_cys" keep_aas="ADEFGHIKLMNPQRSTVWY" /> There are problems with disulfides so just don't allow cys
+        <RestrictToRepacking name="rtr"/>
+        <OperateOnResidueSubset name="no_design_template">
+            <Or selectors="before_blade,after_blade"/>
+            <RestrictToRepackingRLT/>
+        </OperateOnResidueSubset>
+    </TASKOPERATIONS>
+
+    <FILTERS>
+        <ScoreType name="chainbreak_val" score_type="chainbreak" threshold="0.3" scorefxn="ref2015_chainbreak" confidence="1"/>
+    </FILTERS>
+
+    <MOVERS>  
+        <LoopMover_Refine_CCD name="ccd" temp_initial="5" scorefxn="ref15"/>    
+
+        <SpliceOut name="spliceout" source_pdb="%%source%%" scorefxn="ref15" torsion_database="%%db%%" randomize_cut="1" cut_secondarystruc="0" from_res="%%start_res%%" to_res="%%end_res%%" rms_cutoff="0.2" design_shell="6"  splice_filter="chainbreak_val" template_file="%%template_pdb%%" task_operations="init,seqprofcons" thread_original_sequence="0" CG_const="0" ignore_chain_break="0"  mover="ccd" debug="0" superimposed="1">
+            <Segments current_segment="%%current_segment%%">
+		    Segment name="frm1" pdb_profile_match="%%pdb_profile_match%%" profiles="1i4n_template:/home/labs/fleishman/dinal/kemp_elim/spliceOut/template/frm1.pssm"/>
+                <Segment name="tail" pdb_profile_match="%%pdb_profile_match%%" profiles="%%tail%%"/>
+                <Segment name="blade1_2" pdb_profile_match="%%pdb_profile_match%%" profiles="%%blade1_2%%"/>
+                <Segment name="blade3_4" pdb_profile_match="%%pdb_profile_match%%" profiles="%%blade3_4%%"/>
+                <Segment name="blade5_6" pdb_profile_match="%%pdb_profile_match%%" profiles="%%blade5_6%%"/> 
+		<Segment name="blade7_8" pdb_profile_match="%%pdb_profile_match%%" profiles="%%blade7_8%%"/> 
+		Segment name="frm2" pdb_profile_match="%%pdb_profile_match%%" profiles="1i4n_template:/home/labs/fleishman/dinal/kemp_elim/spliceOut/template/frm2.pssm"/>		 
+            </Segments> 
+        </SpliceOut>
+
+
+        <Splice name="splice_seqconstraints" scorefxn="ref_2015" add_sequence_constraints_only="1">  
+            <Segments current_segment="%%current_segment%%">  
+		    Segment name="frm1" pdb_profile_match="%%pdb_profile_match%%" profiles="1i4n_template:/home/labs/fleishman/dinal/kemp_elim/spliceOut/template/frm1.pssm"/>    
+		<Segment name="tail" pdb_profile_match="%%pdb_profile_match%%" profiles="%%tail%%"/>  
+                <Segment name="blade1_2" pdb_profile_match="%%pdb_profile_match%%" profiles="%%blade1_2%%"/>  
+                <Segment name="blade3_4" pdb_profile_match="%%pdb_profile_match%%" profiles="%%blade3_4%%"/>  
+                <Segment name="blade5_6" pdb_profile_match="%%pdb_profile_match%%" profiles="%%blade5_6%%"/>  
+		<Segment name="blade7_8" pdb_profile_match="%%pdb_profile_match%%" profiles="%%blade7_8%%"/>  
+		Segment name="frm2" pdb_profile_match="%%pdb_profile_match%%" profiles="1i4n_template:/home/labs/fleishman/dinal/kemp_elim/spliceOut/template/frm2.pssm"/>	
+            </Segments>  
+        </Splice>  
+
+
+         ################   design   ################ 
+        <ClearConstraintsMover name="clear_constraints"/> 
+        <PackRotamersMover name="hard_design" scorefxn="REF_coordcst" task_operations="no_cys,init,seqprofcons,no_design_template"/> 
+        <PackRotamersMover name="soft_design" scorefxn="soft_rep_coordcst" task_operations="no_cys,init,seqprofcons,no_design_template"/> 
+        <TaskAwareMinMover name="soft_min" scorefxn="soft_rep_coordcst" bb="0" jump="0" chi="1" task_operations="rtr,init,no_design_template"/> do not minimize bb 
+        <TaskAwareMinMover name="hard_min" scorefxn="REF_coordcst" bb="0" jump="0" chi="1" task_operations="rtr,init,no_design_template"/> 
+        <RotamerTrialsMinMover name="rtmin" scorefxn="REF_coordcst" task_operations="rtr,init"/> 
+        AtomCoordinateCstMover name="chelating_res_E" func_groups="true" task_operations="restrict_chelating_E_design" coord_dev="0.1" native="true"/> 
+        <PackRotamersMover name="SRB_ppk" scorefxn="REF_coordcst" task_operations="no_design_template"/> 
+
+        ################   post splice refine   ################ 
+		 # The logic here is that I minimize  splice_in's output and only then do design 
+        <ParsedProtocol name="post_splice_refine"> 
+            <Add mover="soft_design"/>
+            <Add mover="soft_min"/>
+            <Add mover="soft_design"/>
+            <Add mover="hard_min"/>
+            <Add mover="hard_design"/>
+            <Add mover="hard_min"/>
+            <Add mover="hard_design"/>
+            <Add mover="rtmin"/>
+            <Add mover="rtmin"/>
+            <Add mover="hard_min"/>
+        </ParsedProtocol> 
+        <LoopOver name="iter" iterations="2" mover_name="post_splice_refine"/>
+    </MOVERS>
+
+    <PROTOCOLS>
+        <Add mover="spliceout"/>
+        <Add mover="clear_constraints"/>	//remove any residual constraints from splice mover		 
+        <Add mover="SRB_ppk"/>			
+        Add mover="chelating_res_E"/>
+        <Add mover="splice_seqconstraints"/>	//re-institute the sequence constraints	
+        <Add mover="iter"/>
+    </PROTOCOLS>
+</ROSETTASCRIPTS>

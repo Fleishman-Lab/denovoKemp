@@ -1,0 +1,45 @@
+# cst constraint descriptor for kemp eliminaze.
+
+#block 1 for glu/asp, interaction with ligand 
+
+CST::BEGIN
+ TEMPLATE::   ATOM_MAP: 1 atom_name:  C7 C1 N1  
+ TEMPLATE::   ATOM_MAP: 1 residue3: UNK
+
+TEMPLATE::   ATOM_MAP: 2 atom_type: OOC ,
+TEMPLATE::   ATOM_MAP: 2 residue1:  DE
+
+ CONSTRAINT:: distanceAB:   2.93  0.2   100.  1    1
+ CONSTRAINT::    angle_A:  127.6  5.0   80.0  360. 1
+ CONSTRAINT::    angle_B:  120.0  5.0   80.0  360. 1
+ CONSTRAINT::  torsion_A:  180.0  7.0   70.0  360. 1
+ CONSTRAINT:: torsion_AB:    0.0  0.0   0.00    5. 1 
+ CONSTRAINT::  torsion_B:  180.0 10.0   00.0  360. 1
+CST::END
+
+#block2 for pi-stacking with the ligand
+CST::BEGIN
+TEMPLATE::   ATOM_MAP: 1 atom_name: X1 C5 C6
+TEMPLATE::   ATOM_MAP: 1 residue3: UNK
+
+TEMPLATE::   ATOM_MAP: 2 atom_type: aroC
+TEMPLATE::   ATOM_MAP: 2 residue1:  WFY
+
+CONSTRAINT:: distanceAB:     4.5    0.2   80.0    0   1
+CONSTRAINT::    angle_A:    90.0    5.0   10.0  360   1
+CONSTRAINT::    angle_B:    90.0    5.0   10.0  360   1
+CONSTRAINT::  torsion_A:    90.0   15.0   10.0  180   1
+#CONSTRAINT:: torsion_AB:     0.0   10.0   10.0   60   1 
+CONSTRAINT::  torsion_B:    90.0   15.0   10.0  180   1
+
+ALGORITHM_INFO:: match
+    SECONDARY_MATCH: DOWNSTREAM
+ALGORITHM_INFO::END
+
+ALGORITHM_INFO:: match_positions
+     all
+ALGORITHM_INFO::END
+
+CST::END
+ 
+

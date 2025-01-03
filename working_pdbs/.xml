@@ -1,0 +1,2720 @@
+<?xml version="1.0" ?>
+<JobDefinitionFile>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=0A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=1A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=2A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=3A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=4A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=5A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=6A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=7A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=8A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=9A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=10A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=11A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=12A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=13A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=14A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=15A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=16A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=17A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=18A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=19A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=20A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=21A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=22A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=23A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=24A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=25A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=26A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=27A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=28A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=29A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=30A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=31A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=32A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=33A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=34A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=35A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=36A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=37A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=38A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=39A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=40A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=41A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=42A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=43A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=44A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=45A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=46A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=47A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=48A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=49A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=50A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=51A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=52A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=53A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=54A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=55A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=56A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=57A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=58A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=59A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=60A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=61A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=62A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=63A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=64A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=65A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=66A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=67A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=68A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=69A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=70A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=71A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=72A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=73A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=74A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=75A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=76A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=77A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=78A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=79A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=80A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=81A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=82A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=83A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=84A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=85A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=86A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=87A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=88A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=89A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=90A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=91A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=92A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=93A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=94A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=95A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=96A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=97A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=98A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=99A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=100A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=101A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=102A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=103A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=104A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=105A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=106A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=107A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=108A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=109A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=110A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=111A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=112A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=113A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=114A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=115A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=116A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=117A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=118A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=119A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=120A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=121A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=122A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=123A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=124A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=125A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=126A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=127A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=128A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=129A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=130A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=131A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=132A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=133A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=134A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=135A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=136A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=137A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=138A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=139A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=140A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=141A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=142A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=143A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=144A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=145A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=146A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=147A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=148A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=149A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=150A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=151A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=152A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=153A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=154A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=155A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=156A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=157A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=158A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=159A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=160A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=161A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=162A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=163A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=164A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=165A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=166A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=167A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=168A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=169A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=170A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=171A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=172A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=173A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=174A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=175A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=176A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=177A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=178A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=179A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=180A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=181A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=182A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=183A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=184A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=185A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=186A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=187A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=188A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=189A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=190A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=191A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=192A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=193A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=194A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=195A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=196A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=197A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=198A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=199A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=200A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=201A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=202A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=203A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=204A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=205A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=206A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=207A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=208A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=209A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=210A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=211A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=212A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=213A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=214A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=215A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=216A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=217A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=218A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=219A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=220A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=221A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=222A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=223A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=224A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=225A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=226A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=227A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=228A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=229A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=230A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=231A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=232A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=233A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=234A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=235A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=236A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=237A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=238A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=239A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=240A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=241A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=242A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=243A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=244A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=245A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+<Job>
+<Input>
+<PDB filename="/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb"/>
+</Input>
+<Output>
+<PDB filename="100_/home/labs/fleishman/dinal/kemp_elim/working_pdbs/1lbf.pdb" path="/dev/null" pdb_gz="true"/>
+</Output>
+<Options>
+<parser__script_vars value="cst_full_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs/in/csts.cst current_res=246A scores_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//scores resfiles_path=/home/labs/fleishman/dinal/kemp_elim/working_pdbs//resfiles"/>
+</Options>
+</Job>
+</JobDefinitionFile>

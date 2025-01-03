@@ -1,0 +1,22 @@
+-database <Rosetta_database>
+-pdb_gz 
+@flags_pssm
+-nodelay 
+-use_input_sc 
+-extrachi_cutoff 8
+-ignore_unrecognized_res 
+-chemical:exclude_patches LowerDNA UpperDNA Cterm_amidation SpecialRotamer VirtualBB ShoveBB VirtualDNAPhosphate VirtualNTerm CTermConnect sc_orbitals pro_hydroxylated_case1 pro_hydroxylated_case2 ser_phosphorylated thr_phosphorylated tyr_phosphorylated tyr_sulfated lys_dimethylated lys_monomethylated lys_trimethylated lys_acetylated glu_carboxylated cys_acetylated tyr_diiodinated N_acetylated C_methylamidated MethylatedProteinCterm
+-jd2:ntrials 1
+-overwrite 
+-out:file:fullatom 
+-no_nstruct_label 
+-use_occurrence_data 0
+-pdb_comments true
+-s ../../working_pdbs/1i4n.pdb
+-unboundrot ../../working_pdbs/1i4n.pdb
+-in:file:native ../../working_pdbs/1i4n.pdb
+-parser:protocol SOT-Nterm.xml
+-parser:script_vars template_pdb=../../working_pdbs/1i4n_template.pdb
+-parser:script_vars from_res=43
+-parser:script_vars pdb_profile_match=IGPS_profile_match.txt
+-parser:script_vars current_segment=tail
