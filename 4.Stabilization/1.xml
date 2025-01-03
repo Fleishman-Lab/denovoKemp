@@ -1,0 +1,183 @@
+<?xml version="1.0" ?>
+<JobDefinitionFile>
+    <Job>
+        <Input>
+            <PDB filename="/home/labs/fleishman/dinal/kemp_elim/funclib_barrel2/65_UM_305_D162F113_bb957_0001_theozime_1_0001_design_13Jul_1537/data/original_65_UM_305_D162F113_bb957_0001_theozime_1_0001.pdb"/>
+        </Input>
+        <Output>
+            <PDB filename="010101010101010101010101010101" path="/dev/null" pdb_gz="true"/>
+        </Output>
+        <Options>
+            <parser__script_vars value="target0=50A new_res0=GLY pac0=true target1=52A new_res1=ILE pac1=true target2=54A new_res2=ILE pac2=true target3=82A new_res3=ALA pac3=true target4=84A new_res4=THR pac4=true target5=111A new_res5=ILE pac5=true target6=134A new_res6=VAL pac6=true target7=136A new_res7=LEU pac7=true target8=160A new_res8=ILE pac8=true target9=179A new_res9=ILE pac9=true target10=183A new_res10=LEU pac10=true target11=212A new_res11=VAL pac11=true target12=214A new_res12=LEU pac12=true target13=216A new_res13=ILE pac13=true target14=234A new_res14=ALA pac14=true"/>
+            <out__file__scorefile value="/home/labs/fleishman/dinal/kemp_elim/funclib_barrel2/65_UM_305_D162F113_bb957_0001_theozime_1_0001_design_13Jul_1537/Design/scores/1.sc"/>
+        </Options>
+    </Job>
+    <Job>
+        <Input>
+            <PDB filename="/home/labs/fleishman/dinal/kemp_elim/funclib_barrel2/65_UM_305_D162F113_bb957_0001_theozime_1_0001_design_13Jul_1537/data/original_65_UM_305_D162F113_bb957_0001_theozime_1_0001.pdb"/>
+        </Input>
+        <Output>
+            <PDB filename="010101010101010101010101010201" path="/dev/null" pdb_gz="true"/>
+        </Output>
+        <Options>
+            <parser__script_vars value="target0=50A new_res0=GLY pac0=true target1=52A new_res1=ILE pac1=true target2=54A new_res2=ILE pac2=true target3=82A new_res3=ALA pac3=true target4=84A new_res4=THR pac4=true target5=111A new_res5=ILE pac5=true target6=134A new_res6=VAL pac6=true target7=136A new_res7=LEU pac7=true target8=160A new_res8=ILE pac8=true target9=179A new_res9=ILE pac9=true target10=183A new_res10=LEU pac10=true target11=212A new_res11=VAL pac11=true target12=214A new_res12=LEU pac12=true target13=216A new_res13=VAL pac13=false target14=234A new_res14=ALA pac14=true"/>
+            <out__file__scorefile value="/home/labs/fleishman/dinal/kemp_elim/funclib_barrel2/65_UM_305_D162F113_bb957_0001_theozime_1_0001_design_13Jul_1537/Design/scores/1.sc"/>
+        </Options>
+    </Job>
+    <Job>
+        <Input>
+            <PDB filename="/home/labs/fleishman/dinal/kemp_elim/funclib_barrel2/65_UM_305_D162F113_bb957_0001_theozime_1_0001_design_13Jul_1537/data/original_65_UM_305_D162F113_bb957_0001_theozime_1_0001.pdb"/>
+        </Input>
+        <Output>
+            <PDB filename="010101010101010101010101020101" path="/dev/null" pdb_gz="true"/>
+        </Output>
+        <Options>
+            <parser__script_vars value="target0=50A new_res0=GLY pac0=true target1=52A new_res1=ILE pac1=true target2=54A new_res2=ILE pac2=true target3=82A new_res3=ALA pac3=true target4=84A new_res4=THR pac4=true target5=111A new_res5=ILE pac5=true target6=134A new_res6=VAL pac6=true target7=136A new_res7=LEU pac7=true target8=160A new_res8=ILE pac8=true target9=179A new_res9=ILE pac9=true target10=183A new_res10=LEU pac10=true target11=212A new_res11=VAL pac11=true target12=214A new_res12=ILE pac12=false target13=216A new_res13=ILE pac13=true target14=234A new_res14=ALA pac14=true"/>
+            <out__file__scorefile value="/home/labs/fleishman/dinal/kemp_elim/funclib_barrel2/65_UM_305_D162F113_bb957_0001_theozime_1_0001_design_13Jul_1537/Design/scores/1.sc"/>
+        </Options>
+    </Job>
+    <Job>
+        <Input>
+            <PDB filename="/home/labs/fleishman/dinal/kemp_elim/funclib_barrel2/65_UM_305_D162F113_bb957_0001_theozime_1_0001_design_13Jul_1537/data/original_65_UM_305_D162F113_bb957_0001_theozime_1_0001.pdb"/>
+        </Input>
+        <Output>
+            <PDB filename="010101010101010101010101020201" path="/dev/null" pdb_gz="true"/>
+        </Output>
+        <Options>
+            <parser__script_vars value="target0=50A new_res0=GLY pac0=true target1=52A new_res1=ILE pac1=true target2=54A new_res2=ILE pac2=true target3=82A new_res3=ALA pac3=true target4=84A new_res4=THR pac4=true target5=111A new_res5=ILE pac5=true target6=134A new_res6=VAL pac6=true target7=136A new_res7=LEU pac7=true target8=160A new_res8=ILE pac8=true target9=179A new_res9=ILE pac9=true target10=183A new_res10=LEU pac10=true target11=212A new_res11=VAL pac11=true target12=214A new_res12=ILE pac12=false target13=216A new_res13=VAL pac13=false target14=234A new_res14=ALA pac14=true"/>
+            <out__file__scorefile value="/home/labs/fleishman/dinal/kemp_elim/funclib_barrel2/65_UM_305_D162F113_bb957_0001_theozime_1_0001_design_13Jul_1537/Design/scores/1.sc"/>
+        </Options>
+    </Job>
+    <Job>
+        <Input>
+            <PDB filename="/home/labs/fleishman/dinal/kemp_elim/funclib_barrel2/65_UM_305_D162F113_bb957_0001_theozime_1_0001_design_13Jul_1537/data/original_65_UM_305_D162F113_bb957_0001_theozime_1_0001.pdb"/>
+        </Input>
+        <Output>
+            <PDB filename="010101010101010101010101030101" path="/dev/null" pdb_gz="true"/>
+        </Output>
+        <Options>
+            <parser__script_vars value="target0=50A new_res0=GLY pac0=true target1=52A new_res1=ILE pac1=true target2=54A new_res2=ILE pac2=true target3=82A new_res3=ALA pac3=true target4=84A new_res4=THR pac4=true target5=111A new_res5=ILE pac5=true target6=134A new_res6=VAL pac6=true target7=136A new_res7=LEU pac7=true target8=160A new_res8=ILE pac8=true target9=179A new_res9=ILE pac9=true target10=183A new_res10=LEU pac10=true target11=212A new_res11=VAL pac11=true target12=214A new_res12=VAL pac12=false target13=216A new_res13=ILE pac13=true target14=234A new_res14=ALA pac14=true"/>
+            <out__file__scorefile value="/home/labs/fleishman/dinal/kemp_elim/funclib_barrel2/65_UM_305_D162F113_bb957_0001_theozime_1_0001_design_13Jul_1537/Design/scores/1.sc"/>
+        </Options>
+    </Job>
+    <Job>
+        <Input>
+            <PDB filename="/home/labs/fleishman/dinal/kemp_elim/funclib_barrel2/65_UM_305_D162F113_bb957_0001_theozime_1_0001_design_13Jul_1537/data/original_65_UM_305_D162F113_bb957_0001_theozime_1_0001.pdb"/>
+        </Input>
+        <Output>
+            <PDB filename="010101010101010101010101030201" path="/dev/null" pdb_gz="true"/>
+        </Output>
+        <Options>
+            <parser__script_vars value="target0=50A new_res0=GLY pac0=true target1=52A new_res1=ILE pac1=true target2=54A new_res2=ILE pac2=true target3=82A new_res3=ALA pac3=true target4=84A new_res4=THR pac4=true target5=111A new_res5=ILE pac5=true target6=134A new_res6=VAL pac6=true target7=136A new_res7=LEU pac7=true target8=160A new_res8=ILE pac8=true target9=179A new_res9=ILE pac9=true target10=183A new_res10=LEU pac10=true target11=212A new_res11=VAL pac11=true target12=214A new_res12=VAL pac12=false target13=216A new_res13=VAL pac13=false target14=234A new_res14=ALA pac14=true"/>
+            <out__file__scorefile value="/home/labs/fleishman/dinal/kemp_elim/funclib_barrel2/65_UM_305_D162F113_bb957_0001_theozime_1_0001_design_13Jul_1537/Design/scores/1.sc"/>
+        </Options>
+    </Job>
+    <Job>
+        <Input>
+            <PDB filename="/home/labs/fleishman/dinal/kemp_elim/funclib_barrel2/65_UM_305_D162F113_bb957_0001_theozime_1_0001_design_13Jul_1537/data/original_65_UM_305_D162F113_bb957_0001_theozime_1_0001.pdb"/>
+        </Input>
+        <Output>
+            <PDB filename="010101010101010101010201010101" path="/dev/null" pdb_gz="true"/>
+        </Output>
+        <Options>
+            <parser__script_vars value="target0=50A new_res0=GLY pac0=true target1=52A new_res1=ILE pac1=true target2=54A new_res2=ILE pac2=true target3=82A new_res3=ALA pac3=true target4=84A new_res4=THR pac4=true target5=111A new_res5=ILE pac5=true target6=134A new_res6=VAL pac6=true target7=136A new_res7=LEU pac7=true target8=160A new_res8=ILE pac8=true target9=179A new_res9=ILE pac9=true target10=183A new_res10=ASN pac10=false target11=212A new_res11=VAL pac11=true target12=214A new_res12=LEU pac12=true target13=216A new_res13=ILE pac13=true target14=234A new_res14=ALA pac14=true"/>
+            <out__file__scorefile value="/home/labs/fleishman/dinal/kemp_elim/funclib_barrel2/65_UM_305_D162F113_bb957_0001_theozime_1_0001_design_13Jul_1537/Design/scores/1.sc"/>
+        </Options>
+    </Job>
+    <Job>
+        <Input>
+            <PDB filename="/home/labs/fleishman/dinal/kemp_elim/funclib_barrel2/65_UM_305_D162F113_bb957_0001_theozime_1_0001_design_13Jul_1537/data/original_65_UM_305_D162F113_bb957_0001_theozime_1_0001.pdb"/>
+        </Input>
+        <Output>
+            <PDB filename="010101010101010101010201010201" path="/dev/null" pdb_gz="true"/>
+        </Output>
+        <Options>
+            <parser__script_vars value="target0=50A new_res0=GLY pac0=true target1=52A new_res1=ILE pac1=true target2=54A new_res2=ILE pac2=true target3=82A new_res3=ALA pac3=true target4=84A new_res4=THR pac4=true target5=111A new_res5=ILE pac5=true target6=134A new_res6=VAL pac6=true target7=136A new_res7=LEU pac7=true target8=160A new_res8=ILE pac8=true target9=179A new_res9=ILE pac9=true target10=183A new_res10=ASN pac10=false target11=212A new_res11=VAL pac11=true target12=214A new_res12=LEU pac12=true target13=216A new_res13=VAL pac13=false target14=234A new_res14=ALA pac14=true"/>
+            <out__file__scorefile value="/home/labs/fleishman/dinal/kemp_elim/funclib_barrel2/65_UM_305_D162F113_bb957_0001_theozime_1_0001_design_13Jul_1537/Design/scores/1.sc"/>
+        </Options>
+    </Job>
+    <Job>
+        <Input>
+            <PDB filename="/home/labs/fleishman/dinal/kemp_elim/funclib_barrel2/65_UM_305_D162F113_bb957_0001_theozime_1_0001_design_13Jul_1537/data/original_65_UM_305_D162F113_bb957_0001_theozime_1_0001.pdb"/>
+        </Input>
+        <Output>
+            <PDB filename="010101010101010101010201020101" path="/dev/null" pdb_gz="true"/>
+        </Output>
+        <Options>
+            <parser__script_vars value="target0=50A new_res0=GLY pac0=true target1=52A new_res1=ILE pac1=true target2=54A new_res2=ILE pac2=true target3=82A new_res3=ALA pac3=true target4=84A new_res4=THR pac4=true target5=111A new_res5=ILE pac5=true target6=134A new_res6=VAL pac6=true target7=136A new_res7=LEU pac7=true target8=160A new_res8=ILE pac8=true target9=179A new_res9=ILE pac9=true target10=183A new_res10=ASN pac10=false target11=212A new_res11=VAL pac11=true target12=214A new_res12=ILE pac12=false target13=216A new_res13=ILE pac13=true target14=234A new_res14=ALA pac14=true"/>
+            <out__file__scorefile value="/home/labs/fleishman/dinal/kemp_elim/funclib_barrel2/65_UM_305_D162F113_bb957_0001_theozime_1_0001_design_13Jul_1537/Design/scores/1.sc"/>
+        </Options>
+    </Job>
+    <Job>
+        <Input>
+            <PDB filename="/home/labs/fleishman/dinal/kemp_elim/funclib_barrel2/65_UM_305_D162F113_bb957_0001_theozime_1_0001_design_13Jul_1537/data/original_65_UM_305_D162F113_bb957_0001_theozime_1_0001.pdb"/>
+        </Input>
+        <Output>
+            <PDB filename="010101010101010101010201020201" path="/dev/null" pdb_gz="true"/>
+        </Output>
+        <Options>
+            <parser__script_vars value="target0=50A new_res0=GLY pac0=true target1=52A new_res1=ILE pac1=true target2=54A new_res2=ILE pac2=true target3=82A new_res3=ALA pac3=true target4=84A new_res4=THR pac4=true target5=111A new_res5=ILE pac5=true target6=134A new_res6=VAL pac6=true target7=136A new_res7=LEU pac7=true target8=160A new_res8=ILE pac8=true target9=179A new_res9=ILE pac9=true target10=183A new_res10=ASN pac10=false target11=212A new_res11=VAL pac11=true target12=214A new_res12=ILE pac12=false target13=216A new_res13=VAL pac13=false target14=234A new_res14=ALA pac14=true"/>
+            <out__file__scorefile value="/home/labs/fleishman/dinal/kemp_elim/funclib_barrel2/65_UM_305_D162F113_bb957_0001_theozime_1_0001_design_13Jul_1537/Design/scores/1.sc"/>
+        </Options>
+    </Job>
+    <Job>
+        <Input>
+            <PDB filename="/home/labs/fleishman/dinal/kemp_elim/funclib_barrel2/65_UM_305_D162F113_bb957_0001_theozime_1_0001_design_13Jul_1537/data/original_65_UM_305_D162F113_bb957_0001_theozime_1_0001.pdb"/>
+        </Input>
+        <Output>
+            <PDB filename="010101010101010101010201030101" path="/dev/null" pdb_gz="true"/>
+        </Output>
+        <Options>
+            <parser__script_vars value="target0=50A new_res0=GLY pac0=true target1=52A new_res1=ILE pac1=true target2=54A new_res2=ILE pac2=true target3=82A new_res3=ALA pac3=true target4=84A new_res4=THR pac4=true target5=111A new_res5=ILE pac5=true target6=134A new_res6=VAL pac6=true target7=136A new_res7=LEU pac7=true target8=160A new_res8=ILE pac8=true target9=179A new_res9=ILE pac9=true target10=183A new_res10=ASN pac10=false target11=212A new_res11=VAL pac11=true target12=214A new_res12=VAL pac12=false target13=216A new_res13=ILE pac13=true target14=234A new_res14=ALA pac14=true"/>
+            <out__file__scorefile value="/home/labs/fleishman/dinal/kemp_elim/funclib_barrel2/65_UM_305_D162F113_bb957_0001_theozime_1_0001_design_13Jul_1537/Design/scores/1.sc"/>
+        </Options>
+    </Job>
+    <Job>
+        <Input>
+            <PDB filename="/home/labs/fleishman/dinal/kemp_elim/funclib_barrel2/65_UM_305_D162F113_bb957_0001_theozime_1_0001_design_13Jul_1537/data/original_65_UM_305_D162F113_bb957_0001_theozime_1_0001.pdb"/>
+        </Input>
+        <Output>
+            <PDB filename="010101010101010101010201030201" path="/dev/null" pdb_gz="true"/>
+        </Output>
+        <Options>
+            <parser__script_vars value="target0=50A new_res0=GLY pac0=true target1=52A new_res1=ILE pac1=true target2=54A new_res2=ILE pac2=true target3=82A new_res3=ALA pac3=true target4=84A new_res4=THR pac4=true target5=111A new_res5=ILE pac5=true target6=134A new_res6=VAL pac6=true target7=136A new_res7=LEU pac7=true target8=160A new_res8=ILE pac8=true target9=179A new_res9=ILE pac9=true target10=183A new_res10=ASN pac10=false target11=212A new_res11=VAL pac11=true target12=214A new_res12=VAL pac12=false target13=216A new_res13=VAL pac13=false target14=234A new_res14=ALA pac14=true"/>
+            <out__file__scorefile value="/home/labs/fleishman/dinal/kemp_elim/funclib_barrel2/65_UM_305_D162F113_bb957_0001_theozime_1_0001_design_13Jul_1537/Design/scores/1.sc"/>
+        </Options>
+    </Job>
+    <Job>
+        <Input>
+            <PDB filename="/home/labs/fleishman/dinal/kemp_elim/funclib_barrel2/65_UM_305_D162F113_bb957_0001_theozime_1_0001_design_13Jul_1537/data/original_65_UM_305_D162F113_bb957_0001_theozime_1_0001.pdb"/>
+        </Input>
+        <Output>
+            <PDB filename="010101010101010101020101010101" path="/dev/null" pdb_gz="true"/>
+        </Output>
+        <Options>
+            <parser__script_vars value="target0=50A new_res0=GLY pac0=true target1=52A new_res1=ILE pac1=true target2=54A new_res2=ILE pac2=true target3=82A new_res3=ALA pac3=true target4=84A new_res4=THR pac4=true target5=111A new_res5=ILE pac5=true target6=134A new_res6=VAL pac6=true target7=136A new_res7=LEU pac7=true target8=160A new_res8=ILE pac8=true target9=179A new_res9=VAL pac9=false target10=183A new_res10=LEU pac10=true target11=212A new_res11=VAL pac11=true target12=214A new_res12=LEU pac12=true target13=216A new_res13=ILE pac13=true target14=234A new_res14=ALA pac14=true"/>
+            <out__file__scorefile value="/home/labs/fleishman/dinal/kemp_elim/funclib_barrel2/65_UM_305_D162F113_bb957_0001_theozime_1_0001_design_13Jul_1537/Design/scores/1.sc"/>
+        </Options>
+    </Job>
+    <Job>
+        <Input>
+            <PDB filename="/home/labs/fleishman/dinal/kemp_elim/funclib_barrel2/65_UM_305_D162F113_bb957_0001_theozime_1_0001_design_13Jul_1537/data/original_65_UM_305_D162F113_bb957_0001_theozime_1_0001.pdb"/>
+        </Input>
+        <Output>
+            <PDB filename="010101010101010101020101010201" path="/dev/null" pdb_gz="true"/>
+        </Output>
+        <Options>
+            <parser__script_vars value="target0=50A new_res0=GLY pac0=true target1=52A new_res1=ILE pac1=true target2=54A new_res2=ILE pac2=true target3=82A new_res3=ALA pac3=true target4=84A new_res4=THR pac4=true target5=111A new_res5=ILE pac5=true target6=134A new_res6=VAL pac6=true target7=136A new_res7=LEU pac7=true target8=160A new_res8=ILE pac8=true target9=179A new_res9=VAL pac9=false target10=183A new_res10=LEU pac10=true target11=212A new_res11=VAL pac11=true target12=214A new_res12=LEU pac12=true target13=216A new_res13=VAL pac13=false target14=234A new_res14=ALA pac14=true"/>
+            <out__file__scorefile value="/home/labs/fleishman/dinal/kemp_elim/funclib_barrel2/65_UM_305_D162F113_bb957_0001_theozime_1_0001_design_13Jul_1537/Design/scores/1.sc"/>
+        </Options>
+    </Job>
+    <Job>
+        <Input>
+            <PDB filename="/home/labs/fleishman/dinal/kemp_elim/funclib_barrel2/65_UM_305_D162F113_bb957_0001_theozime_1_0001_design_13Jul_1537/data/original_65_UM_305_D162F113_bb957_0001_theozime_1_0001.pdb"/>
+        </Input>
+        <Output>
+            <PDB filename="010101010101010101020101020101" path="/dev/null" pdb_gz="true"/>
+        </Output>
+        <Options>
+            <parser__script_vars value="target0=50A new_res0=GLY pac0=true target1=52A new_res1=ILE pac1=true target2=54A new_res2=ILE pac2=true target3=82A new_res3=ALA pac3=true target4=84A new_res4=THR pac4=true target5=111A new_res5=ILE pac5=true target6=134A new_res6=VAL pac6=true target7=136A new_res7=LEU pac7=true target8=160A new_res8=ILE pac8=true target9=179A new_res9=VAL pac9=false target10=183A new_res10=LEU pac10=true target11=212A new_res11=VAL pac11=true target12=214A new_res12=ILE pac12=false target13=216A new_res13=ILE pac13=true target14=234A new_res14=ALA pac14=true"/>
+            <out__file__scorefile value="/home/labs/fleishman/dinal/kemp_elim/funclib_barrel2/65_UM_305_D162F113_bb957_0001_theozime_1_0001_design_13Jul_1537/Design/scores/1.sc"/>
+        </Options>
+    </Job>
+</JobDefinitionFile>

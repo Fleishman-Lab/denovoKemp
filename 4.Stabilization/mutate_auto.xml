@@ -1,0 +1,145 @@
+<ROSETTASCRIPTS>
+    <SCOREFXNS>
+        <ScoreFunction name="scorefxn_full" weights="%%scorefxn%%">
+		<Reweight scoretype="coordinate_constraint" weight="%%cst_value%%"/>
+		<Reweight scoretype="res_type_constraint" weight="0.64"/>
+    	</ScoreFunction>
+        <ScoreFunction name="soft_rep_full" weights="soft_rep">
+            <Reweight scoretype="coordinate_constraint" weight="%%cst_value%%"/>	
+	    <Reweight scoretype="res_type_constraint" weight="%%pssm_weight%%"/>
+	    <Reweight scoretype="atom_pair_constraint" weight="1"/>
+            <Reweight scoretype="angle_constraint" weight="1"/>
+	    <Reweight scoretype="dihedral_constraint" weight="1"/>
+	   <Reweight scoretype="metalbinding_constraint" weight="1"/>
+   </ScoreFunction>                     
+   <ScoreFunction name="SF_fa_rep">
+           <Reweight scoretype="fa_rep" weight="0.55"/>
+    </ScoreFunction>
+    <ScoreFunction name="SF_fa_atr">
+            <Reweight scoretype="fa_atr" weight="1"/>
+    </ScoreFunction>
+    <ScoreFunction name="SF_fa_sol">
+            <Reweight scoretype="fa_sol" weight="1"/>
+    </ScoreFunction>
+    </SCOREFXNS>	
+    
+    <RESIDUE_SELECTORS>
+	    <Index name="carboxy" resnums="%%carbox%%"/>
+	    <Chain name="ligand" chains="X"/>
+	    %%fix_prefix%%Index name="ress_fix" resnums="%%res_to_fix%%"/>
+    </RESIDUE_SELECTORS>   
+    
+    <TASKOPERATIONS>
+        <RestrictToRepacking name="rtr"/>
+        <OperateOnResidueSubset name="fix_not_neighbor">
+            <Not>
+            <Neighborhood distance="8">
+                    <Index resnums="%%all_ress%%"/>
+            </Neighborhood>
+            </Not>
+            <PreventRepackingRLT/>
+        </OperateOnResidueSubset>
+        <InitializeFromCommandline name="init"/>
+        <IncludeCurrent name="include_curr"/>
+        %%fix_prefix%%OperateOnResidueSubset name="fix_res" selector="ress_fix">
+                %%fix_prefix%%PreventRepackingRLT/>
+        %%fix_prefix%%/OperateOnResidueSubset>
+        %%fix_prefix%%OperateOnResidueSubset name="not_to_cst_sc">
+            %%fix_prefix%%Not selector="ress_fix"/>
+            %%fix_prefix%%PreventRepackingRLT/>
+        %%fix_prefix%%/OperateOnResidueSubset>
+    </TASKOPERATIONS>
+ 
+    <FILTERS>
+	    <DesignableResidues name="designable" task_operations="fix_not_neighbor" designable="0" packable="1"/>
+	    <EnzScore name="allcst" score_type="cstE" scorefxn="scorefxn_full" whole_pose="1" confidence="0" />
+	    <DSasa name="lsasa" lower_threshold="0.3" upper_threshold="0.95" confidence="0"/>
+	    <RepackWithoutLigand name="ddg_noLigand" scorefxn="scorefxn_full" energy_threshold="10000" confidence="0"/>
+            <RepackWithoutLigand name="rms_NL_allProt" scorefxn="scorefxn_full" target_res="all_repacked" rms_threshold="10000" confidence="0"/>
+            <RepackWithoutLigand name="rms_NL_carbox" scorefxn="scorefxn_full" target_cstids="1B" rms_threshold="10000" confidence="0"/>
+            <RepackWithoutLigand name="rms_NL_arom" scorefxn="scorefxn_full" target_cstids="2B" rms_threshold="10000" confidence="0"/>
+            <IRmsd name="int_RMSD" jump="1" threshold="50" scorefxn="scorefxn_full" confidence="0"/>
+            <ShapeComplementarity name="shape_comp" min_sc="0" jump="1" write_int_area="true" confidence="0"/>
+            <ScoreType name="total_energy" scorefxn="scorefxn_full" score_type="total_score" threshold="0" confidence="0"/>
+            <Sasa name="inter_sasa" threshold="0.0" upper_threshold="10000000000.0" jump="1" confidence="0"/>
+	    <TotalSasa name="total_sasa" threshold="0.0" upper_threshold="10000000000.0" confidence="0"/>
+	    <EnergyPerResidue name="carbox_fa_atr" scorefxn="scorefxn_full" score_type="fa_atr" energy_cutoff="100000" resnums="%%carbox%%"/>
+	    <EnergyPerResidue name="carbox_fa_rep" scorefxn="scorefxn_full" score_type="fa_rep" energy_cutoff="100000" resnums="%%carbox%%"/>
+	    <EnergyPerResidue name="carbox_fa_sol" scorefxn="scorefxn_full" score_type="fa_sol" energy_cutoff="100000" resnums="%%carbox%%"/>
+	    <ScorePoseSegmentFromResidueSelectorFilter name="ligand_fa_atr" in_context="1" residue_selector="ligand" scorefxn="SF_fa_atr" confidence="0"/>
+	    <ScorePoseSegmentFromResidueSelectorFilter name="ligand_fa_rep" in_context="1" residue_selector="ligand" scorefxn="SF_fa_rep" confidence="0"/>
+	    <ScorePoseSegmentFromResidueSelectorFilter name="ligand_fa_sol" in_context="1" residue_selector="ligand" scorefxn="SF_fa_sol" confidence="0"/>
+    </FILTERS>
+    
+    <MOVERS>
+		<MutateResidue name="mutres0" new_res="%%new_res0%%" target="%%target0%%" preserve_atom_coords="%%pac0%%"/>
+		<MutateResidue name="mutres1" new_res="%%new_res1%%" target="%%target1%%" preserve_atom_coords="%%pac1%%"/>
+		<MutateResidue name="mutres2" new_res="%%new_res2%%" target="%%target2%%" preserve_atom_coords="%%pac2%%"/>
+		<MutateResidue name="mutres3" new_res="%%new_res3%%" target="%%target3%%" preserve_atom_coords="%%pac3%%"/>
+		<MutateResidue name="mutres4" new_res="%%new_res4%%" target="%%target4%%" preserve_atom_coords="%%pac4%%"/>
+		<MutateResidue name="mutres5" new_res="%%new_res5%%" target="%%target5%%" preserve_atom_coords="%%pac5%%"/>
+		<MutateResidue name="mutres6" new_res="%%new_res6%%" target="%%target6%%" preserve_atom_coords="%%pac6%%"/>
+		<MutateResidue name="mutres7" new_res="%%new_res7%%" target="%%target7%%" preserve_atom_coords="%%pac7%%"/>
+		<MutateResidue name="mutres8" new_res="%%new_res8%%" target="%%target8%%" preserve_atom_coords="%%pac8%%"/>
+		<MutateResidue name="mutres9" new_res="%%new_res9%%" target="%%target9%%" preserve_atom_coords="%%pac9%%"/>
+		<MutateResidue name="mutres10" new_res="%%new_res10%%" target="%%target10%%" preserve_atom_coords="%%pac10%%"/>
+		<MutateResidue name="mutres11" new_res="%%new_res11%%" target="%%target11%%" preserve_atom_coords="%%pac11%%"/>
+		<MutateResidue name="mutres12" new_res="%%new_res12%%" target="%%target12%%" preserve_atom_coords="%%pac12%%"/>
+		<MutateResidue name="mutres13" new_res="%%new_res13%%" target="%%target13%%" preserve_atom_coords="%%pac13%%"/>
+		<MutateResidue name="mutres14" new_res="%%new_res14%%" target="%%target14%%" preserve_atom_coords="%%pac14%%"/>
+	    <ConstraintSetMover name="add_CA_cst" cst_file="%%cst_full_path%%"/>
+	    <AddOrRemoveMatchCsts name="cstadd" cst_instruction="add_new"/>
+        %%fix_prefix%%AtomCoordinateCstMover name="fix_res_sc_cst" coord_dev="0.5" bounded="false" sidechain="true" task_operations="not_to_cst_sc"/> 
+        %%tree%%AtomTree name="tree" docking_ft="1"/>
+        <PackRotamersMover name="prm" task_operations="init,include_curr,rtr,fix_not_neighbor%%fix_TO%%" scorefxn="scorefxn_full"/> 
+        <RotamerTrialsMinMover name="rtmin" task_operations="init,include_curr,rtr,fix_not_neighbor%%fix_TO%%" scorefxn="scorefxn_full"/>
+        <MinMover name="min" bb="1" chi="1" jump="%%jump%%" scorefxn="scorefxn_full"/>
+	<PackRotamersMover name="soft_repack" scorefxn="soft_rep_full" task_operations="init,include_curr,rtr,fix_not_neighbor%%fix_TO%%"/>
+	<InterfaceScoreCalculator name="int_scores" chains="X" scorefxn="scorefxn_full"/>
+    </MOVERS>
+    
+    <PROTOCOLS>
+        %%tree%%Add mover_name="tree"/>
+	    <Add mover="add_CA_cst"/>
+	    <Add mover_name="cstadd"/>
+        %%fix_prefix%%Add mover="fix_res_sc_cst"/>
+		<Add mover="mutres0"/>
+		<Add mover="mutres1"/>
+		<Add mover="mutres2"/>
+		<Add mover="mutres3"/>
+		<Add mover="mutres4"/>
+		<Add mover="mutres5"/>
+		<Add mover="mutres6"/>
+		<Add mover="mutres7"/>
+		<Add mover="mutres8"/>
+		<Add mover="mutres9"/>
+		<Add mover="mutres10"/>
+		<Add mover="mutres11"/>
+		<Add mover="mutres12"/>
+		<Add mover="mutres13"/>
+		<Add mover="mutres14"/>
+        <Add mover="soft_repack"/>
+        <Add mover="min"/>
+        <Add mover="prm"/>
+	<Add mover="min"/>
+	<Add mover_name="int_scores"/>
+	<Add filter="designable"/>
+	<Add filter="allcst"/>
+     <Add filter="ddg_noLigand"/>
+     <Add filter="rms_NL_allProt"/>
+     <Add filter="rms_NL_carbox"/>
+     <Add filter="rms_NL_arom"/>
+     <Add filter_name="lsasa"/>
+     <Add filter="total_sasa"/>
+     <Add filter_name="int_RMSD"/>
+     <Add filter_name="shape_comp"/>
+     <Add filter="total_energy"/>
+     <Add filter="carbox_fa_atr"/>
+     <Add filter="carbox_fa_rep"/>
+     <Add filter="carbox_fa_sol"/>
+     <Add filter="ligand_fa_atr"/>
+     <Add filter="ligand_fa_rep"/>
+     <Add filter="ligand_fa_sol"/>
+    </PROTOCOLS>
+    <OUTPUT scorefxn="scorefxn_full"/>
+</ROSETTASCRIPTS>

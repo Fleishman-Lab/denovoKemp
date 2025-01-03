@@ -1,0 +1,12 @@
+<ROSETTASCRIPTS>
+	<SCOREFXNS>
+	</SCOREFXNS>
+	<FILTERS>
+	</FILTERS>
+	<MOVERS>
+		<CutOutDomain name="cut_blade" start_res="%%start_res%%" end_res="%%end_res%%"  source_pdb="%%source%%"/>
+	</MOVERS>
+	<PROTOCOLS>
+		<Add mover_name="cut_blade"/>
+	</PROTOCOLS>
+</ROSETTASCRIPTS>

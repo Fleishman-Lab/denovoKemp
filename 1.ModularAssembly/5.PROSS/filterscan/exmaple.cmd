@@ -1,0 +1,1 @@
+-parser:protocol filterscan_mod.xml -s <in_pdb> @fs_flags -parser:script_vars cst_value=0.64 pssm_weight=0.64 scfxn=ref2015 current_res=<pos_num> pssm_full_path=<pssm_file> cst_full_path=<cst_file>  min_aa_probability=0 res_to_restrict=0 resfiles_path=<resfile_path> scores_path=<score_path> fs_thresholds=-0.75

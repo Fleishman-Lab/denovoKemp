@@ -1,0 +1,23 @@
+-database <Rosetta_database>
+-pdb_gz 
+@../3.spliceOut/flags_pssm
+-overwrite 
+-use_input_sc 
+-extrachi_cutoff 8
+-ignore_unrecognized_res 
+-chemical:exclude_patches LowerDNA UpperDNA Cterm_amidation SpecialRotamer VirtualBB ShoveBB VirtualDNAPhosphate VirtualNTerm CTermConnect sc_orbitals pro_hydroxylated_case1 pro_hydroxylated_case2 ser_phosphorylated thr_phosphorylated tyr_phosphorylated tyr_sulfated lys_dimethylated lys_monomethylated lys_trimethylated lys_acetylated glu_carboxylated cys_acetylated tyr_diiodinated N_acetylated C_methylamidated MethylatedProteinCterm
+-linmem_ig 10
+-ignore_zero_occupancy false
+-no_nstruct_label true
+-parser:protocol splice_in.xml
+-pdb_comments true
+-unboundrot ../../working_pdbs/1i4n.pdb
+-in:file:native ../../working_pdbs/1i4n.pdb
+-s ../../working_pdbs/1i4n.pdb
+-parser:script_vars ../3.spliceOut/IGPS_profile_match.txt
+-parser:script_vars template_pdb=../../working_pdbs/1i4n.pdb
+-parser:script_vars db_tail=databases/tail.db
+-parser:script_vars db_blade1_2=databases/blade1_2.db
+-parser:script_vars db_blade3_4=databases/blade3_4.db
+-parser:script_vars db_blade5_6=databases/blade5_6.db
+-parser:script_vars db_blade7_8=databases/blade7_8.db

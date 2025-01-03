@@ -1,0 +1,125 @@
+<ROSETTASCRIPTS>
+    <SCOREFXNS>
+        <ScoreFunction name="RefReg" weights="ref2015"/>    
+        <ScoreFunction name="ref2015_chainbreak" weights="ref2015">
+            <Reweight scoretype="chainbreak" weight="1"/>
+        </ScoreFunction>
+        <ScoreFunction name="ref_2015" weights="ref2015">
+            <Reweight scoretype="res_type_constraint" weight="0.5"/>
+            <Reweight scoretype="coordinate_constraint" weight="1"/>
+            <Reweight scoretype="chainbreak" weight="100"/>
+        </ScoreFunction>
+        <ScoreFunction name="REF_coordcst" weights="ref2015">
+            <Reweight scoretype="res_type_constraint" weight="0.2"/> 
+            <Reweight scoretype="coordinate_constraint" weight="1"/>
+        </ScoreFunction>        
+        <ScoreFunction name="soft_rep_coordcst" weights="soft_rep">
+            <Reweight scoretype="res_type_constraint" weight="0.2"/> 
+            <Reweight scoretype="coordinate_constraint" weight="1"/>
+        </ScoreFunction>
+    </SCOREFXNS>
+
+    <TASKOPERATIONS>
+        <RestrictToRepacking name="rtr"/>
+        <InitializeFromCommandline name="init"/>
+        <IncludeCurrent name="include_curr"/>
+	<SeqprofConsensus name="seqprofcons" min_aa_probability="1" probability_larger_than_current="0" ignore_pose_profile_length_mismatch="1" keep_native="1" debug="1"/>
+        RestrictIdentitiesAtAlignedPositions name="design_only_cat_res" source_pdb="%%template_pdb%%"  design_only_target_residues="1" resnums="%%template_catres%%"/>
+        RestrictIdentitiesAtAlignedPositions name="no_repack_cat_res" source_pdb="%%template_pdb%%" design_only_target_residues="0" resnums="%%template_catres%%" prevent_repacking="1"/>
+
+    </TASKOPERATIONS>
+
+    <FILTERS>
+        <PackStat name="packstat" confidence="0"/>
+        <ScoreType name="total_score" score_type="total_score" scorefxn="RefReg" threshold="1000000"/>
+    </FILTERS>
+
+    <MOVERS> 
+	    <SpliceInTail name="splice_in_tail" min_seg="true" scorefxn="ref_2015" template_file="%%template_pdb%%" task_operations="init,seqprofcons,include_curr" torsion_database="%%db_tail%%"  database_pdb_entry="%%entry_blade_tail%%" design_shell="1" repack_shell="10000"  dbase_iterate="0" use_sequence_profile ="1" > 
+		    <Segments current_segment="tail" >
+		    <segment name= "tail" pdb_profile_match="%%pdb_profile_match%%" profiles="%%tail%%"/>
+		    <segment name="blade1_2" pdb_profile_match="%%pdb_profile_match%%" profiles="%%blade1_2%%"/>
+                    <segment name="blade3_4" pdb_profile_match="%%pdb_profile_match%%" profiles="%%blade3_4%%"/>
+                    <segment name="blade5_6" pdb_profile_match="%%pdb_profile_match%%" profiles="%%blade5_6%%"/>
+                    <segment name="blade7_8" pdb_profile_match="%%pdb_profile_match%%" profiles="%%blade7_8%%"/>
+	    </Segments>
+	    </SpliceInTail>
+
+	<SpliceIn name="splice_in_blade1_2" min_seg="true" scorefxn="ref_2015" template_file="%%template_pdb%%" task_operations="init,seqprofcons,include_curr" torsion_database="%%db_blade1_2%%" database_pdb_entry="%%entry_blade_1_2%%" design_shell="1" repack_shell="10000" dbase_iterate="0" use_sequence_profile ="1">
+		<Segments current_segment="blade1_2" > 
+                <segment name= "tail" pdb_profile_match="%%pdb_profile_match%%" profiles="%%tail%%"/>
+	        <segment name="blade1_2" pdb_profile_match="%%pdb_profile_match%%" profiles="%%blade1_2%%"/>          
+		<segment name="blade3_4" pdb_profile_match="%%pdb_profile_match%%" profiles="%%blade3_4%%"/>
+	        <segment name="blade5_6" pdb_profile_match="%%pdb_profile_match%%" profiles="%%blade5_6%%"/>
+	        <segment name="blade7_8" pdb_profile_match="%%pdb_profile_match%%" profiles="%%blade7_8%%"/>
+		</Segments>
+    </SpliceIn>
+
+        <SpliceIn name="splice_in_blade3_4" min_seg="true" scorefxn="ref_2015" template_file="%%template_pdb%%" task_operations="init,include_curr,seqprofcons" torsion_database="%%db_blade3_4%%" database_pdb_entry="%%entry_blade_3_4%%" design_shell="1" repack_shell="10000" dbase_iterate="0" use_sequence_profile ="1">
+		<Segments current_segment="blade3_4" >
+		<segment name= "tail" pdb_profile_match="%%pdb_profile_match%%" profiles="%%tail%%"/>
+                <segment name="blade1_2" pdb_profile_match="%%pdb_profile_match%%" profiles="%%blade1_2%%"/>
+		<segment name="blade3_4" pdb_profile_match="%%pdb_profile_match%%" profiles="%%blade3_4%%"/>             
+		<segment name="blade5_6" pdb_profile_match="%%pdb_profile_match%%" profiles="%%blade5_6%%"/>
+                <segment name="blade7_8" pdb_profile_match="%%pdb_profile_match%%" profiles="%%blade7_8%%"/>
+		</Segments>
+	</SpliceIn>
+
+        <SpliceIn name="splice_in_blade5_6" min_seg="true" scorefxn="ref_2015" template_file="%%template_pdb%%" task_operations="init,include_curr,seqprofcons" torsion_database="%%db_blade5_6%%" database_pdb_entry="%%entry_blade_5_6%%" design_shell="1" repack_shell="10000" dbase_iterate="0" use_sequence_profile ="1">
+		<Segments current_segment="blade5_6"> 
+		<segment name= "tail" pdb_profile_match="%%pdb_profile_match%%" profiles="%%tail%%"/>
+                <segment name="blade1_2" pdb_profile_match="%%pdb_profile_match%%" profiles="%%blade1_2%%"/>
+                <segment name="blade3_4" pdb_profile_match="%%pdb_profile_match%%" profiles="%%blade3_4%%"/>
+		<segment name="blade5_6" pdb_profile_match="%%pdb_profile_match%%" profiles="%%blade5_6%%"/>             
+		<segment name="blade7_8" pdb_profile_match="%%pdb_profile_match%%" profiles="%%blade7_8%%"/>
+	</Segments>
+	</SpliceIn>
+
+        <SpliceInTail name="splice_in_blade7_8" min_seg="true" scorefxn="ref_2015" template_file="%%template_pdb%%" task_operations="init,include_curr,seqprofcons" torsion_database="%%db_blade7_8%%" database_pdb_entry="%%entry_blade_7_8%%" design_shell="1" repack_shell="10000" dbase_iterate="0" use_sequence_profile ="1">
+		<Segments current_segment="blade7_8" >
+		<segment name= "tail" pdb_profile_match="%%pdb_profile_match%%" profiles="%%tail%%"/>
+                <segment name="blade1_2" pdb_profile_match="%%pdb_profile_match%%" profiles="%%blade1_2%%"/>
+                <segment name="blade3_4" pdb_profile_match="%%pdb_profile_match%%" profiles="%%blade3_4%%"/>
+                <segment name="blade5_6" pdb_profile_match="%%pdb_profile_match%%" profiles="%%blade5_6%%"/>
+		<segment name="blade7_8" pdb_profile_match="%%pdb_profile_match%%" profiles="%%blade7_8%%"/>             
+		</Segments>
+	</SpliceInTail>
+
+        <!-- <AddConstraintsToCurrentConformationMover name="add_CA_cst"/>  -->
+        AtomCoordinateCstMover name="cst_catalytic_res" func_groups="true" task_operations="design_only_cat_res" coord_dev="0.1" native="true"/>
+
+        <ClearConstraintsMover name="clear_constraints"/> 
+        <PackRotamersMover name="hard_design" scorefxn="REF_coordcst" task_operations="rtr,init"/> 
+        <PackRotamersMover name="soft_design" scorefxn="soft_rep_coordcst" task_operations="rtr,init"/> 
+        <TaskAwareMinMover name="soft_min" scorefxn="soft_rep_coordcst" bb="0" jump="0" chi="1" task_operations="rtr,init"/> 
+        <TaskAwareMinMover name="hard_min" scorefxn="REF_coordcst" bb="0" jump="0" chi="1" task_operations="rtr,init"/> 
+        <RotamerTrialsMinMover name="rtmin" scorefxn="REF_coordcst" task_operations="rtr,init"/>
+
+        <ParsedProtocol name="post_splice_refine"> 
+            <Add mover="soft_design"/>
+            <Add mover="soft_min"/>
+            <Add mover="soft_design"/>
+            <Add mover="hard_min"/>
+            <Add mover="hard_design"/>
+            <Add mover="hard_min"/>
+            <Add mover="hard_design"/>
+            <Add mover="rtmin"/>
+            <Add mover="rtmin"/>
+            <Add mover="hard_min"/>
+        </ParsedProtocol> 
+        <LoopOver name="iter" iterations="2" mover_name="post_splice_refine"/>
+    </MOVERS>
+
+    <PROTOCOLS>
+        Add mover="cst_catalytic_res"/>
+        <Add mover="splice_in_tail"/>   
+	<Add mover="splice_in_blade1_2"/>
+	<Add mover="splice_in_blade3_4"/>
+	<Add mover="splice_in_blade5_6"/>	
+	<Add mover="splice_in_blade7_8"/>
+        <Add mover="iter"/>
+        <Add filter="packstat"/>
+        <Add filter="total_score"/>
+    </PROTOCOLS>
+    <OUTPUT scorefxn="RefReg"/>
+</ROSETTASCRIPTS>

@@ -1,0 +1,21 @@
+-database <Rosetta_database>
+-lj_hbond_hdis 1.75
+-lj_hbond_OH_donor_dis 2.6
+-enzdes
+ -parser_read_cloud_pdb
+-detect_design_interface
+-packing
+ -extrachi_cutoff 1
+ -use_input_sc
+ -flip_HNQ
+ -no_optH false
+ -optH_MCA false
+ -linmem_ig 10
+-nblist_autoupdate
+-parser:protocol deNovo_design.xml 
+-run:preserve_header
+-nstruct 1
+-chemical:exclude_patches LowerDNA UpperDNA Cterm_amidation SpecialRotamer VirtualBB ShoveBB VirtualDNAPhosphate VirtualNTerm CTermConnect sc_orbitals pro_hydroxylated_case1 pro_hydroxylated_case2 ser_phosphorylated thr_phosphorylated tyr_phosphorylated tyr_sulfatedlys_dimethylated lys_monomethylated lys_trimethylated lys_acetylated glu_carboxylated cys_acetylated tyr_diiodinated N_acetylated C_methylamidated MethylatedProteinCterm
+-enzdes:cstfile /home/labs/fleishman/dinal/kemp_elim/designMatch/in/theozime.cst
+-extra_res_fa /home/labs/fleishman/dinal/kemp_elim/designMatch/in/UNK_virt.params
+-pdb_gz
