@@ -1,0 +1,1 @@
+<Rosetta_exe> -s {in_pdb} @pross.flags -parser:script_vars in_resfile=<resfile>pssm_full_path=<pssm_file> cst_full_path=<cst_file> -out:path:pdb <pdb_out_dir> -out:path:score <scores_out_dir> -out:file:scorefile <scores.sc> 

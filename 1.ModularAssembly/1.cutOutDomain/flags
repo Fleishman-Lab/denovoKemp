@@ -1,0 +1,14 @@
+-database <Rosetta_path>/main/database
+-nodelay 
+-ignore_unrecognized_res 
+-chemical:exclude_patches LowerDNA UpperDNA Cterm_amidation SpecialRotamer VirtualBB ShoveBB VirtualDNAPhosphate VirtualNTerm CTermConnect sc_orbitals pro_hydroxylated_case1 pro_hydroxylated_case2 ser_phosphorylated thr_phosphorylated tyr_phosphorylated tyr_sulfated lys_dimethylated lys_monomethylated lys_trimethylated lys_acetylated glu_carboxylated cys_acetylated tyr_diiodinated N_acetylated C_methylamidated MethylatedProteinCterm
+-jd2:ntrials 10
+-overwrite 
+-out:file:fullatom 
+-parser:protocol cut_out_domain.xml
+-out:path:pdb pdb/
+-no_nstruct_label true
+-out:prefix tail_
+-parser:script_vars source=/home/labs/fleishman/dinal/kemp_elim/template/1i4n.pdb
+-parser:script_vars start_res=1
+-parser:script_vars end_res=44

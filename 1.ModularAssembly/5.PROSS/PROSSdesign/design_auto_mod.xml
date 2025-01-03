@@ -1,0 +1,79 @@
+<ROSETTASCRIPTS>
+  <SCOREFXNS>
+    <ScoreFunction name="ref_full" weights="%%scfxn%%">
+      <Reweight scoretype="coordinate_constraint" weight="%%cst_value%%"/>
+      <Reweight scoretype="res_type_constraint" weight="%%pssm_weight%%"/>
+    </ScoreFunction>
+    <ScoreFunction name="soft_rep_full" weights="soft_rep">
+      <Reweight scoretype="coordinate_constraint" weight="%%cst_value%%"/>
+      <Reweight scoretype="res_type_constraint" weight="%%pssm_weight%%"/>
+    </ScoreFunction>
+    <ScoreFunction name="ref_no_pssm" weights="%%scfxn%%">
+      <Reweight scoretype="coordinate_constraint" weight="%%cst_value%%"/>
+    </ScoreFunction>
+    <ScoreFunction name="ref_pure" weights="%%scfxn%%"/>
+  </SCOREFXNS>
+  <RESIDUE_SELECTORS>
+    Index name="ress_restrict" resnums="%%res_to_restrict%%" error_on_out_of_bounds_index="0"/>
+	  <Index name="ress_fix" resnums="%%res_to_fix%%"/>
+  </RESIDUE_SELECTORS>
+  <TASKOPERATIONS>
+    <InitializeFromCommandline name="init"/>
+    <ReadResfile name="read_resfile" filename="%%in_resfile%%"/>
+    <RestrictToRepacking name="rtr"/>
+    OperateOnResidueSubset name="restrict_res" selector="ress_restrict">
+    RestrictToRepackingRLT/>
+    OperateOnResidueSubset>
+    <!--<PreventResiduesFromRepacking name="fix_res" reference_pdb_id="%%pdb_reference%%" residues="%%res_to_fix%%"/>-->
+    %%fix_prefix%%OperateOnResidueSubset name="fix_res" selector="ress_fix">
+      %%fix_prefix%%PreventRepackingRLT/>
+    %%fix_prefix%%/OperateOnResidueSubset>
+    %%fix_prefix%%OperateOnResidueSubset name="not_to_cst_sc">
+        %%fix_prefix%%Not selector="ress_fix"/>
+        %%fix_prefix%%PreventRepackingRLT/>
+    %%fix_prefix%%/OperateOnResidueSubset>
+        <SeqprofConsensus name="pssm_cutoff" filename="%%pssm_full_path%%" min_aa_probability="%%min_aa_probability%%" convert_scores_to_probabilities="0" probability_larger_than_current="0" keep_native="%%keep_n%%" ignore_pose_profile_length_mismatch="%%ignore_pose_profile_length_mismatch%%"/>
+    </TASKOPERATIONS>
+    <MOVERS>
+        <PackRotamersMover name="soft_design" scorefxn="soft_rep_full" task_operations="init,read_resfile,pssm_cutoff"/>
+        <PackRotamersMover name="hard_design" scorefxn="ref_full" task_operations="init,read_resfile,pssm_cutoff"/>
+        <RotamerTrialsMinMover name="RTmin" scorefxn="ref_full" task_operations="init,rtr"/>
+        <MinMover name="soft_min" scorefxn="soft_rep_full" chi="1" bb="1" jump="0"/>
+        <MinMover name="hard_min" scorefxn="ref_full" chi="1" bb="1" jump="0"/>
+        <ConstraintSetMover name="add_CA_cst" cst_file="%%cst_full_path%%"/>
+    %%fix_prefix%%AtomCoordinateCstMover name="fix_res_sc_cst" coord_dev="0.5" bounded="false" sidechain="true" task_operations="not_to_cst_sc"/>
+        <FavorSequenceProfile name="FSP" pssm="%%pssm_full_path%%" scaling="none" scorefxns="ref_full" weight="1"/>
+        <ParsedProtocol name="design_block">
+            <Add mover="soft_design"/>
+            <Add mover="soft_min"/>
+            <Add mover="soft_design"/>
+            <Add mover="hard_min"/>
+            <Add mover="hard_design"/>
+            <Add mover="hard_min"/>
+            <Add mover="hard_design"/>
+            <Add mover="RTmin"/>
+            <Add mover="RTmin"/>
+            <Add mover="hard_min"/>
+        </ParsedProtocol>
+        <LoopOver iterations="4" mover_name="design_block" name="iter4"/>
+    </MOVERS>
+    <FILTERS>
+        <ScoreType confidence="0" name="stability_score_full" score_type="total_score" scorefxn="ref_full" threshold="0"/>
+        <ScoreType confidence="0" name="stability_without_pssm" score_type="total_score" scorefxn="ref_no_pssm" threshold="0"/>
+        <ScoreType confidence="0" name="stability_pure" score_type="total_score" scorefxn="ref_pure" threshold="0"/>
+        <Rmsd confidence="0" name="rmsd"/>
+        <Time name="timer"/>
+    </FILTERS>
+    <PROTOCOLS>
+        <Add filter="timer"/>
+        <Add mover="add_CA_cst"/>
+        <Add mover="FSP"/>
+        <Add mover="iter4"/>
+        <Add filter="stability_score_full"/>
+        <Add filter="stability_without_pssm"/>
+        <Add filter="stability_pure"/>
+        <Add filter="rmsd"/>
+        <Add filter="timer"/>
+    </PROTOCOLS>
+    <OUTPUT scorefxn="ref_full"/>
+</ROSETTASCRIPTS>
