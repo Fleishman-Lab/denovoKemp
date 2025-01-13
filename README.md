@@ -20,7 +20,7 @@ The denovoKemp workflow combines several computational techniques to generate en
 
 ## Methodology
 
-The repository provides xmls, flag files and examples of a command lines for each step. Follow the provided scripts in the different subdirectories. Inital pdb files are in the working_pdb directory.
+The repository provides xmls, flag files and examples of command lines for each step. Follow the provided scripts in the different subdirectories. Inital pdb files are in the working_pdb directory.
 
 - **Step 1:** Combinatorial assembly and design of protein backbones using homologous fragments, followed by PROSS design calculations for stability.
 - **Step 2:** Geometric matching of the KE theozyme to each backbone structure and optimization of the active site using Rosetta.
@@ -30,6 +30,7 @@ The repository provides xmls, flag files and examples of a command lines for eac
 ## Requirements
 
 - Python 3.x
+- Jupyter notebook
 - Rosetta
 
 ## Citation
