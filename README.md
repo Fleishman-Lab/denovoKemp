@@ -1,4 +1,4 @@
-# denovoKemp
+# de novo Kemp
 
 This repository contains a computational method for designing novel enzymes using a precomputed theozyme. The workflow is flexible and can be applied to any reaction where a theozyme is available, allowing the design of stable, functionally competent proteins with a focus on catalytic efficiency.
 
