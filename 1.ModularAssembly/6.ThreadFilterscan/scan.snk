@@ -1,0 +1,80 @@
+import os
+import glob
+from flab.utils.parse_actions import FullPaths
+from flab.pdb_.util import get_length
+from flab.rosetta.rosetta_output.resfile import ResFile
+import filterFix_util as util
+import math
+import glob
+
+#PDBS, =glob_wildcards('relax/{PDB}_0001.pdb')
+
+localrules: Concat
+
+#rule all:
+#    input:
+#        expand('round{config["curr_round"]}/scan/full_scores/{PDB}.score_full.log', PDB=PDBS),
+#	expand('round{config["curr_round"]}/scan/ordered_resfile/{PDB}_resfileNoPssm.0.0.ordered', PDB=PDBS),
+#        expand('round{config["curr_round"]}/scan/concat_scores/{PDB}_ddG0.log', PDB=PDBS)
+
+rule scan:
+    input:
+        pdb=f'round{config["curr_round"]}/relax/{{PDB}}_iter{config["curr_round"]}.pdb',
+	cst='in/chimera_cst/{PDB}.cst',
+	pssm='in/chimera_pssm/{PDB}.pssm'
+    output:
+        score_path=touch(f'round{config["curr_round"]}/scan/filterscan/{{PDB}}/{{PDB}}_res{{num}}')
+#        resfile=f'round{config["curr_round"]}/scan/resfile/{{PDB}}_resfilePssm.0.0'
+    params:
+        resfile_path=f'round{config["curr_round"]}/scan/resfile/{{PDB}}_resfilePssm.0',
+	#fix=util.is_fixres('{PDB}')
+    run:
+        try:
+            os.mkdir(f'round{config["curr_round"]}/scan/resfile/')
+        except:
+            pass
+        fix=util.is_fixres(wildcards.PDB)
+        resnum=get_length(input.pdb)
+	batch_size=int(config['scan_batchSize'])
+	curr_batch=int(wildcards.num)
+        start=int(math.floor(curr_batch*resnum/batch_size+1))
+        end=int(math.floor((curr_batch+1)*resnum/batch_size+1))
+	residues= ','.join([str(i) for i in list(range(start,end))])
+        command = f'{config["rosetta_exec"]} @flags/scan -s {input.pdb} -script_vars current_res={residues} pssm_full_path={input.pssm} scores_path={output.score_path} resfiles_path={params.resfile_path} cst_full_path={input.cst} {fix}'
+	os.system(command)
+
+rule Concat:
+    input:
+        scores=expand(f'round{config["curr_round"]}/scan/filterscan/{{PDB}}/{{PDB}}_res{{num}}', num=range(config['scan_batchSize']), PDB=PDBS),
+	pdb=f'round{config["curr_round"]}/relax/{{PDB}}_iter{config["curr_round"]}.pdb'
+    output:
+        better_score=f'round{config["curr_round"]}/scan/concat_scores/{{PDB}}_ddG0.log',
+        full_score=f'round{config["curr_round"]}/scan/full_scores/{{PDB}}.score_full.log',
+	Oresfile=f'round{config["curr_round"]}/scan/ordered_resfile/{{PDB}}_resfileNoPssm.0.0.ordered'
+    params:
+        resfile=f'round{config["curr_round"]}/scan/resfile/{{PDB}}_resfilePssm.0.0'
+    run:
+        os.system(f"cat round{config['curr_round']}/scan/filterscan/{wildcards.PDB}/{wildcards.PDB}_res* >> {output.full_score}")
+        command=f"cat round{config['curr_round']}/scan/filterscan/{wildcards.PDB}/{wildcards.PDB}_res* | awk '$4<0' | sort -k1 -n > {output.better_score}"
+        os.system(command)
+        util.fix_noChoose(wildcards.PDB, output.better_score)
+
+        r=ResFile(params.resfile)
+        r.set_pdb(input.pdb)
+        r.rearrange_resfile()
+        r.write_resfile(output.Oresfile)
+
+
+#rule order_resfile:
+#    input:
+#        pdb=f'round{config["curr_round"]}/relax/{{PDB}}_iter{config["curr_round"]}.pdb',
+#        resfile=f'round{config["curr_round"]}/scan/resfile/{{PDB}}_resfilePssm.0.0'
+#    output:
+#        Oresfile=f'round{config["curr_round"]}/scan/ordered_resfile/{{PDB}}_resfileNoPssm.0.0.ordered'
+#    params:
+#        resfile=f'round{config["curr_round"]}/scan/resfile/{{PDB}}_resfilePssm.0.0'
+#    run:
+#        r=ResFile(input.resfile)
+#	r.set_pdb(input.pdb)
+#	r.rearrange_resfile()
+#        r.write_resfile(output.Oresfile)

@@ -1,0 +1,8 @@
+This folder contains an early, experimental design method used for designing Des36-73 of the paper (High-efficiency Kemp Eliminases by Complete Computational Design).
+
+The approach implemented here is based on selecting top mutations of Rosetta FilterScan protocol applied to the full protein structure. Selected mutations were screened to ensure they are not in proximity to each other to avoid epistatic effects. The mutations are threaded onto the original protein structure to achieve the final design.
+
+While this method was explored during the design process, we did not find it to perform better than PROSS. 
+⚠️ This method is not recommended for general use or further development.
+
+To execute the pipeline use Snakemake version 7 and run filterFix.snk. 
