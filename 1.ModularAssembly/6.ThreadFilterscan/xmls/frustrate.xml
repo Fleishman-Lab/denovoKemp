@@ -1,0 +1,50 @@
+<ROSETTASCRIPTS>
+
+<SCOREFXNS>
+    <ScoreFunction name="ref_full" weights="ref2015">
+      <Reweight scoretype="coordinate_constraint" weight="0.64"/>
+    </ScoreFunction>
+  </SCOREFXNS>
+
+  <RESIDUE_SELECTORS>
+	  %%fix_prefix%%Index name="ress_fix" resnums="%%res_to_fix%%"/>
+  </RESIDUE_SELECTORS>
+
+  <TASKOPERATIONS>
+    <InitializeFromCommandline name="init"/>
+    <DesignAround name="des_around" design_shell="0.1" resnums="%%current_res%%" repack_shell="8.0"/>
+	    %%fix_prefix%%OperateOnResidueSubset name="fix_res" selector="ress_fix">
+	       %%fix_prefix%%PreventRepackingRLT/>
+	    %%fix_prefix%%/OperateOnResidueSubset>
+	    %%fix_prefix%%OperateOnResidueSubset name="not_to_cst_sc">
+	       %%fix_prefix%%Not selector="ress_fix"/>
+	       %%fix_prefix%%PreventRepackingRLT/>
+	    %%fix_prefix%%/OperateOnResidueSubset>
+  </TASKOPERATIONS>
+
+  <MOVERS>
+	  %%fix_prefix%%AtomCoordinateCstMover name="fix_res_sc_cst" coord_dev="0.5" bounded="false" sidechain="true" task_operations="not_to_cst_sc"/>
+	  %%tree%%AtomTree name="tree" docking_ft="1"/>
+	  <ConstraintSetMover name="add_CA_cst" cst_file="%%cst_full_path%%"/>
+	  <MinMover name="min_all" scorefxn="ref_full" chi="1" bb="1" jump="0"/>
+  </MOVERS>
+
+  <FILTERS>
+    <ScoreType name="stability_score_full" scorefxn="ref_full" score_type="total_score" threshold="0.0"/>
+    <Delta name="delta_score_full" filter="stability_score_full" upper="1" lower="0" range="0.5"/>
+    #upper and lower are booleans. Delta filters out all the mutations that are worse or better by less than -0.55R.E.U
+    <Time name="timer"/>
+    <FilterScan name="filter_scan" scorefxn="ref_full" relax_mover="min_all" keep_native="1" task_operations="init,des_around%%fix_TO%%" delta_filters="delta_score_full" delta="true" resfile_name="%%resfiles_path%%" report_all="1" delta_filter_thresholds="%%fs_thresholds%%" score_log_file="%%scores_path%%" dump_pdb="0"/>
+  </FILTERS>
+
+  <PROTOCOLS>
+	  <Add filter="timer"/>
+		  %%tree%%Add mover_name="tree"/>
+    <Add mover_name="add_CA_cst"/>
+	    %%fix_prefix%%Add mover_name="fix_res_sc_cst"/>
+    <Add filter="filter_scan"/>
+    <Add filter="timer"/>
+  </PROTOCOLS>
+
+  <OUTPUT scorefxn="ref_full"/>
+</ROSETTASCRIPTS>
