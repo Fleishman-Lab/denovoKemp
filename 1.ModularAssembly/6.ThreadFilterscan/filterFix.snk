@@ -1,0 +1,140 @@
+import os
+import glob
+import filterFix_util as util
+from flab.utils.parse_actions import FullPaths
+from flab.pdb_.util import get_length, get_sequence
+from flab.rosetta.rosetta_output.resfile import get_allowed_residues
+import shutil 
+import glob
+
+curr_round=config["curr_round"]
+prev_round=str(int(config["curr_round"])-1)
+
+PDBS, =glob_wildcards(f'round{curr_round}/do/{{PDB}}_iter{prev_round}.pdb')
+
+include: "relax.snk"
+include: "scan.snk"
+
+
+localrules: pdbToseq
+
+rule all:
+    input:
+        expand(f'round{config["curr_round"]}/threaded/{{PDB}}_iter{config["curr_round"]}_threaded.pdb', PDB=PDBS),
+	expand(f'threaded_scores/{{PDB}}_threaded_iter{config["curr_round"]}.sc', PDB=PDBS), 
+	expand(f'round{config["curr_round"]}/scan/ordered_resfile/{{PDB}}_resfileNoPssm.0.0.ordered', PDB=PDBS)
+        expand(f'round{config["curr_round"]}/frustration/pymol_scripts/{{PDB}}_iter{config["curr_round"]}.pml', PDB=PDBS),
+        expand(f'round{config["curr_round"]}/frustration/full_scores/{{PDB}}.score_full.log', PDB=PDBS),
+        expand(f'round{config["curr_round"]}/frustration/sum/{{PDB}}_iter{config["curr_round"]}.txt', PDB=PDBS)
+
+rule scan:
+    input:
+        pdb=f'round{config["curr_round"]}/relax/{{PDB}}_iter{config["curr_round"]}.pdb',
+	pssm='in/chimera_pssm/{PDB}.pssm',
+	scorefile=f'round{config["curr_round"]}/frustration/full_scores/{{PDB}}.score_full.log',
+	resfile=f'round{config["curr_round"]}/frustration/ordered_resfile/{{PDB}}_resfileNoPssm.0.0.ordered'
+    output:
+        full_socre=f'round{config["curr_round"]}/concat_scores/{{PDB}}_ddG0.log'
+    run:
+        new_scoreFile=util.scoreFile_filter(input.scorefile, input.resfile, input.pssm, input.pdb, int(config["energy_cutoffs_rosetta"][0]))
+        if len(new_scoreFile)==0:
+            try:
+                os.mkdir(f'round{config["curr_round"]}/threaded/')         
+            except:
+                pass
+            threaded=f'round{config["curr_round"]}/threaded/{{wildcards.PDB}}_iter{config["curr_round"]}_threaded.pdb.lastRound'
+            open(threaded, 'a').close()
+        with open(output.full_socre, 'w') as f:
+            f.write(new_scoreFile)
+
+rule pdbToseq:
+    input:
+        pdb=f'round{config["curr_round"]}/relax/{{PDB}}_iter{config["curr_round"]}.pdb'
+    output:
+        fasta=f'round{config["curr_round"]}/fastas/{{PDB}}.fasta'
+    run:
+        seq=get_sequence(input.pdb)
+	open(output.fasta,'w').write(seq)
+
+rule find_newSeq:
+    input:
+        pdb=f'round{config["curr_round"]}/relax/{{PDB}}_iter{curr_round}.pdb',
+        fasta=f'round{config["curr_round"]}/fastas/{{PDB}}.fasta',
+        full_socre=f'round{config["curr_round"]}/concat_scores/{{PDB}}_ddG0.log'
+	better_score=f'round{config["curr_round"]}/scan/concat_scores/{{PDB}}_ddG0.log'
+    output:
+        sampledSeq=f'round{config["curr_round"]}/chosen_seq/{{PDB}}_greedy_seq_pssm0_distCutOff6.txt'
+    run:
+        command= f"/home/labs/fleishman/shayho/Applications/miniconda3/envs/dist_sensitive_design/bin/python scripts/sample_seq.py greedy `tail -n1 {input.fasta}` {input.pdb} {input.better_score} --dist_method cbeta-ori --dist_cutoff=8 > {output.sampledSeq}"
+	print(command)
+	os.system(command)
+        if len(open(input.better_score,'r').read().splitlines())==0:
+            try:
+                os.mkdir(f'round{config["curr_round"]}/threaded/')         
+            except:
+                pass
+            threaded=f'round{config["curr_round"]}/threaded/{{wildcards.PDB}}_iter{config["curr_round"]}_threaded.pdb.lastRound'
+            open(threaded, 'a').close()
+
+rule thread:
+    input:
+        pdb=f'round{config["curr_round"]}/relax/{{PDB}}_iter{curr_round}.pdb',
+	sampledSeq=f'round{config["curr_round"]}/chosen_seq/{{PDB}}_greedy_seq_pssm0_distCutOff6.txt',
+        cst='in/chimera_cst/{PDB}.cst'
+    output:
+        threaded=f'round{config["curr_round"]}/threaded/{{PDB}}_iter{config["curr_round"]}_threaded.pdb',
+        score_path=f'threaded_scores/{{PDB}}_threaded_iter{config["curr_round"]}.sc',
+    params:
+        pdb_path=f'round{config["curr_round"]}/threaded/',
+	spath='threaded_scores/'
+    run:
+        if os.path.exists('threaded_scores/'):
+            pass
+        else:
+            os.mkdir('threaded_scores')  
+        fix=util.is_fixres(wildcards.PDB)
+        print(output.score_path)
+	command=f'{config["rosetta_exec"]} -s {input.pdb} @flags/thread_flags -out:path:pdb {params.pdb_path} -out:file:scorefile {output.score_path} -out:suffix _threaded -out:path:score {params.spath} -in:file:native round1/do/{wildcards.PDB}_iter0.pdb -parser:script_vars sequence=`tail -1 {input.sampledSeq}` cst_full_path={input.cst} {fix}'
+	os.system(command)
+
+onsuccess:
+    try:
+        os.mkdir('final_fixed/') #find here all final results
+    except:
+        pass
+    prev_round=config["curr_round"]-1
+    for fil in os.listdir(f'round{config["curr_round"]}/threaded/'): #terminating subsequent runs for designs with 0 mutations
+        if "lastRound" in fil:
+            filename=fil.replace('.lastRound', '')
+	    des=os.path.basename(filename).split('_')[0]
+	    last_filterfixed=glob(f'round{prev_round}/threaded/{des}*')[0]
+	    shutil.copy(last_filterfixed, 'final_fixed/') #copyting last round threading to final folder 
+	    os.remove(filename)
+	    os.remove(fil)
+	    
+    print(f'finished round {config["curr_round"]}')
+    if config["curr_round"] < config["Nrounds"]:
+        print('deleting unnesseray file from previous round\n')
+	shutil.rmtree(f'round{config["curr_round"]}/logs', ignore_errors=True)
+	new_round=config["curr_round"] +1
+	print(f'starting round {new_round}')
+	if os.path.exists(f'round{new_round}'):
+            pass
+        else:
+            os.mkdir(f'round{new_round}')
+	    os.mkdir(f'round{new_round}/do/')
+        os.system(f'cp round{config["curr_round"]}/threaded/* round{new_round}/do/')
+        os.system(f'rename _threaded.pdb .pdb round{new_round}/do/*')
+        os.system(f'snakemake --cluster "bsub -u /dev/null -q new-short -R rusage[mem=1024] -C 1 -G fleishman-wx-grp-lsf -o logs/{{rule}}.{{wildcards}}.out -e logs/{{rule}}.{{wildcards}}.err" --cores 2000 --snakefile filterFix.snk --configfile filterFix_config.yaml --config curr_round={new_round} --latency-wait 60 --keep-going --nolock')
+    else:
+        os.system(f'cp round{config["curr_round"]}/threaded/* final_fixed/') 
+	print('deleting unnecessary files in temp_resfiles and logs.\n')
+	#os.system('nohup find temp_resfiles/ -type f -not -name "*.log" -exec rm -f {} \;')
+	print('tarzipping this directory\n')
+	#os.system('tar -cvf temp_resfiles.tar temp_resfiles')
+	#os.system('gzip -f temp_resfiles.tar')
+	#os.system('tar -cvf logs.tar logs')
+	#os.system('gzip -f logs.tar')
+	#print('deleting the directories\n')
+	#shutil.rmtree('temp_resfiles', ignore_errors=True)
+	#shutil.rmtree('logs', ignore_errors=True)

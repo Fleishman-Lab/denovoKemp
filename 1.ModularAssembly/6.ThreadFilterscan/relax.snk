@@ -1,0 +1,48 @@
+import os
+import glob
+from flab.rosetta.rosetta_output.score_files import read_score_files
+import pandas as pd
+import filterFix_util as util
+
+#This version of the relax protocol is completely dependent on another
+#snakefile to define rule all and the config file. This snakefile cannot
+#be run independently but only through an include directive. See frustrate.snk
+localrules: select_best
+prev_round=str(int(config["curr_round"])-1)
+curr_round=config["curr_round"]
+
+
+PDBS, =glob_wildcards(f'round{curr_round}/do/{{PDB}}_iter{prev_round}.pdb')
+
+#rule all:
+#    input:
+#        expand(f'round{curr_round}/relax/{{PDB}}_iter{curr_round}.pdb', PDB=PDBS)
+
+rule rosetta_relax:
+  input:
+    pdb=f'round{curr_round}/do/{{PDB}}_iter{prev_round}.pdb',
+    cst='in/chimera_cst/{PDB}.cst'
+  output:
+    pdb=temporary(f'round{curr_round}/temp_relax/{{num}}_{{PDB}}_iter{prev_round}.pdb')
+  params:
+    dir=f'round{curr_round}/temp_relax'
+  run:
+    fix=util.is_fixres(wildcards.PDB)
+    command = f'{config["rosetta_exec"]} -s {input.pdb}  @flags/refine -parser:script_vars cst_full_path={input.cst} {fix} -out:prefix {params.dir}/{wildcards.num}_ -out:file:scorefile {params.dir}/{wildcards.PDB}.sc'
+    print(command)
+    os.system(command)
+
+rule select_best:
+  input:
+    pdb=expand(f'round{curr_round}/temp_relax/{{num}}_{{PDB}}_iter{prev_round}.pdb', num=range(config["relax_trajectories"]), PDB=PDBS)
+  output:
+    pdb=f'round{curr_round}/relax/{{PDB}}_iter{curr_round}.pdb'
+  params:
+    score=f'round{curr_round}/temp_relax/{{PDB}}.sc'
+  run:
+    # command = f'cp `python {config["flab_dir"]}/bin/rosetta/parse_scores.py --scorefile {params.score} --operations "sort total_score Asc cols description" | ' + "awk 'NR==2{print $0 \".pdb\"}'`"+" {out_pdb}".format(out_pdb=output.pdb)
+    file = read_score_files(params.score).total_score.idxmin() + '.pdb'
+    command = f'cp {file} {output.pdb}'
+    print(command)
+    os.system(command)
+
